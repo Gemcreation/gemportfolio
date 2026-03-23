@@ -17,7 +17,7 @@ const Header = () => {
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
           <li>
-            <a href="/assets/ibrahim-resume.pdf" target="_blank" rel="noreferrer" className="btn btn-yellow" style={{color: '#1a1a1a', textDecoration: 'none'}}>
+            <a href="./assets/ibrahim-resume.pdf" target="_blank" rel="noreferrer" className="btn btn-yellow" style={{color: '#1a1a1a', textDecoration: 'none'}}>
               Resume
             </a>
           </li>
@@ -38,7 +38,7 @@ const Header = () => {
             <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
             <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
             <li>
-              <a href="/assets/ibrahim-resume.pdf" target="_blank" rel="noreferrer" onClick={toggleMenu} style={{color: '#ffc107'}}>
+              <a href="./assets/ibrahim-resume.pdf" target="_blank" rel="noreferrer" onClick={toggleMenu} style={{color: '#ffc107'}}>
                 Resume
               </a>
             </li>
