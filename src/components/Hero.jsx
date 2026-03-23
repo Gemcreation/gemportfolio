@@ -1,5 +1,6 @@
 import React from 'react';
 import profilePic from '../assets/images/profile-pic.png';
+import resumePDF from '../assets/ibrahim-resume.pdf';
 
 const Hero = () => {
   return (
@@ -15,12 +16,15 @@ const Hero = () => {
           I am Abdulmojeed Ibrahim, a specialist in building high-performance, visually stunning interfaces that blend code with artistic craftsmanship.
         </p>
         <div className="btn-container">
-          <button
+          <a
+            href={resumePDF}
+            target="_blank"
+            rel="noreferrer"
             className="btn btn-yellow"
-            onClick={() => window.open('/assets/ibrahim-resume.pdf', '_blank')}
+            download
           >
             My Resume
-          </button>
+          </a>
           <button 
             className="btn btn-outline" 
             onClick={() => window.location.href = '#contact'}
@@ -35,6 +39,8 @@ const Hero = () => {
           src={profilePic} 
           alt="Abdulmojeed Ibrahim profile" 
           className="hero-image" 
+          loading="lazy"
+          decoding="async"
         />
         <div className="experience-badge">
           <span className="badge-number">2+</span>

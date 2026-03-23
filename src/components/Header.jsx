@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import resumePDF from '../assets/ibrahim-resume.pdf';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,7 +18,7 @@ const Header = () => {
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
           <li>
-            <a href="./assets/ibrahim-resume.pdf" target="_blank" rel="noreferrer" className="btn btn-yellow" style={{color: '#1a1a1a', textDecoration: 'none'}}>
+            <a href={resumePDF} target="_blank" rel="noreferrer" className="btn btn-yellow" style={{color: '#1a1a1a', textDecoration: 'none'}} download>
               Resume
             </a>
           </li>
@@ -38,7 +39,7 @@ const Header = () => {
             <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
             <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
             <li>
-              <a href="./assets/ibrahim-resume.pdf" target="_blank" rel="noreferrer" onClick={toggleMenu} style={{color: '#ffc107'}}>
+              <a href={resumePDF} target="_blank" rel="noreferrer" onClick={toggleMenu} style={{color: '#ffc107'}} download>
                 Resume
               </a>
             </li>
