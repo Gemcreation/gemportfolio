@@ -17,12 +17,7 @@ const Hero = () => {
         </p>
         <div className="btn-container">
           <a
-            href={resumePDF}
-            target="_blank"
-            rel="noreferrer"
-            className="btn btn-yellow"
-            download
-          >
+            href={resumePDF} target="_blank" rel="noreferrer" className="btn btn-yellow" download>
             My Resume
           </a>
           <button 
@@ -36,12 +31,11 @@ const Hero = () => {
       
       <div className="hero-image-container">
         <img 
-          src={profilePic} 
-          alt="Abdulmojeed Ibrahim profile" 
-          className="hero-image" 
-          loading="lazy"
-          decoding="async"
+          src={profilePic} alt="Abdulmojeed Ibrahim profile" className="hero-image"
         />
+        {/* <img 
+          src={profilePic} alt="Abdulmojeed Ibrahim profile" className="hero-image" loading="lazy" decoding="async"
+        /> slow loading */}
         <div className="experience-badge">
           <span className="badge-number">2+</span>
           <span className="badge-text">YEARS OF EXPERIENCE</span>
