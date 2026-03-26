@@ -20,7 +20,8 @@ const Contact = () => {
                 <img src={emailIcon} alt="Email" className="icon" />
               </div>
               <h4>Email</h4>
-              <p>mojeedibrahim13@gmail.com</p>
+              {/* removing all social names */}
+              {/* <p>mojeedibrahim13@gmail.com</p> */}
             </a>
 
             <a href="https://www.linkedin.com/in/ibrahim-abdulmojeed-aaa769222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer" className="contact-info-item">
@@ -28,7 +29,7 @@ const Contact = () => {
                 <img src={linkedinIcon} alt="LinkedIn" className="icon" />
               </div>
               <h4>LinkedIn</h4>
-              <p>Abdulmojeed Ibrahim</p>
+              {/* <p>Abdulmojeed Ibrahim</p> */}
             </a>
 
             <a href="https://www.threads.com/@kolawole_gemcreation" target="_blank"  className="contact-info-item">
@@ -36,7 +37,7 @@ const Contact = () => {
                 <img src={threadIcon} alt="threadIcon" className="icon" />
               </div>
               <h4>Threads</h4>
-              <p>@ibrahim_abdulmojeed</p>
+              {/* <p>@ibrahim_abdulmojeed</p> */}
             </a>
 
             <a href="https://x.com/Abdulmojee31730" target="_blank"  className="contact-info-item">
@@ -44,7 +45,7 @@ const Contact = () => {
                 <img src={xIcon} alt="xIcon" className="icon" />
               </div>
               <h4>Twitter</h4>
-              <p>@ibrahim_abdul</p>
+              {/* <p>@ibrahim_abdul</p> */}
             </a>
 {/* 
             <a href="https://www.threads.net/@ibrahim_abdulmojeed" target="_blank" rel="noreferrer" className="contact-info-item">

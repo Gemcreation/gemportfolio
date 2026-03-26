@@ -894,4 +894,9 @@ footer {
   .btn {
     width: 100%;
   }
+  .footer-nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* two columns */
+  gap: 10px; /* optional spacing */
+}
 }
