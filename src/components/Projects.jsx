@@ -84,10 +84,10 @@ const Projects = () => {
             </div>
             <h3 className="project-title">{project.title}</h3>
             <div className="project-links">
-              <a href={project.github} target="_blank" className="github">
+              <a href={project.github} target="_blank" rel="noreferrer" className="github">
                 GitHub
               </a>
-              <a href={project.live} target="_blank" className="live">
+              <a href={project.live} target="_blank" rel="noreferrer" className="live">
                 Live Demo
               </a>
             </div>

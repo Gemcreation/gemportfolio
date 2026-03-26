@@ -15,7 +15,7 @@ const Contact = () => {
       <div className="contact-container">
         <div className="contact-box">
           <div className="contact-info-links">
-            <a href="mailto:mojeedibrahim13@gmail.com" target="_blank" className="contact-info-item">
+            <a href="mailto:mojeedibrahim13@gmail.com" target="_blank" rel="noreferrer" className="contact-info-item">
               <div className="icon-wrapper">
                 <img src={emailIcon} alt="Email" className="icon" />
               </div>
@@ -32,7 +32,7 @@ const Contact = () => {
               {/* <p>Abdulmojeed Ibrahim</p> */}
             </a>
 
-            <a href="https://www.threads.com/@kolawole_gemcreation" target="_blank"  className="contact-info-item">
+            <a href="https://www.threads.com/@kolawole_gemcreation" target="_blank" rel="noreferrer" className="contact-info-item">
               <div className="icon-wrapper">
                 <img src={threadIcon} alt="threadIcon" className="icon" />
               </div>
@@ -40,7 +40,7 @@ const Contact = () => {
               {/* <p>@ibrahim_abdulmojeed</p> */}
             </a>
 
-            <a href="https://x.com/Abdulmojee31730" target="_blank"  className="contact-info-item">
+            <a href="https://x.com/Abdulmojee31730" target="_blank" rel="noreferrer"  className="contact-info-item">
               <div className="icon-wrapper">
                 <img src={xIcon} alt="xIcon" className="icon" />
               </div>
