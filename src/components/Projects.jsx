@@ -1,4 +1,5 @@
 import React from 'react';
+//some of the images to preview on the portfolio website
 import project1 from '../assets/images/project-1.jpg';
 import project2 from '../assets/images/project-2.jpg';
 import project3 from '../assets/images/project-3.jpg';
@@ -61,10 +62,10 @@ const Projects = () => {
             </div>
             <h3 className="project-title">{project.title}</h3>
             <div className="project-links">
-              <a href={project.github} target="_blank" rel="noreferrer" className="github">
+              <a href={project.github} target="_blank" className="github">
                 GitHub
               </a>
-              <a href={project.live} target="_blank" rel="noreferrer" className="live">
+              <a href={project.live} target="_blank" className="live">
                 Live Demo
               </a>
             </div>

@@ -15,7 +15,8 @@ const Footer = () => {
       </div>
       
       <p style={{ fontSize: '0.8rem', color: '#b3b3b3' }}>
-        © 2024 ABDULMOJEED IBRAHIM. BUILT WITH REACT.
+        © 2026 ABDULMOJEED IBRAHIM. 
+        {/* BUILT WITH REACT. */}
       </p>
     </footer>
   );
