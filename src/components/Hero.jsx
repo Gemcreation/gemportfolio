@@ -13,12 +13,12 @@ const Hero = () => {
           Precision.
         </h1>
         <p className="description">
-          I am Abdulmojeed Ibrahim, a specialist in building high-performance, visually stunning interfaces that blend code with artistic craftsmanship.
+          I am Abdulmojeed Ibrahim Kolawole, a specialist in building high performance, visually stunning interfaces that blend code with artistic craftsmanship.
         </p>
         <div className="btn-container">
           <a
             href={resumePDF} target="_blank" rel="noreferrer" className="btn btn-yellow" download>
-            My Resume
+            Resume
           </a>
           <button 
             className="btn btn-outline" 
