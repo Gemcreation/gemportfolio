@@ -14,43 +14,43 @@ import project6 from '../assets/images/project-6.jpg';
 const projectsList = [
   {
     image: proj1,
-    title: 'Project One',
+    title: 'Room',
     github: 'https://github.com/Gemcreation/geeg-new-room',
     live: 'https://roomslider.vercel.app/'
   },
   {
     image: proj2,
-    title: 'Project Two',
+    title: 'URL Shortener',
     github: 'https://github.com/Gemcreation/urlproject1',
     live: 'https://gemurlshorten.vercel.app/'
   },
   {
     image: proj3,
-    title: 'Project Three',
+    title: 'Wealth Web',
     github: 'https://github.com/Gemcreation/wealthwebsite',
     live: 'https://wealthwebsite-nine.vercel.app//'
   },
   {
     image: project1,
-    title: 'Project Four',
+    title: 'Umie',
     github: 'https://github.com/Gemcreation/umie-garment',
     live: 'https://umie-garment.vercel.app/'
   },
   {
     image: project2,
-    title: 'Project Five',
+    title: 'Oyin',
     github: 'https://github.com/Gemcreation/oyin-website',
     live: 'https://oyin-foodies.vercel.app/'
   },
   {
     image: project3,
-    title: 'Project Six',
+    title: 'Honeystore',
     github: 'https://github.com/Gemcreation/honeystore',
     live: 'https://honeystore-wears.vercel.app/'
   },
   {
     image: project4,
-    title: 'Project Seven',
+    title: 'Job Listing',
     github: 'https://github.com/Gemcreation/gem-static-job-web',
     live: 'https://gem-front-job.vercel.app/'
   },
