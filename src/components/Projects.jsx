@@ -56,13 +56,13 @@ const projectsList = [
   },
   {
     image: project5,
-    title: 'Project Eight',
+    title: 'Ako Treate',
     github: 'https://github.com/Gemcreation/redo-ako-treate',
     live: 'https://ako-treate.vercel.app/'
   },
   {
     image: project6,
-    title: 'Project Nine',
+    title: 'Landing page',
     github: 'https://github.com/Gemcreation/webs-landing-page',
     live: 'https://web3-landing-pages.vercel.app/'
   }
