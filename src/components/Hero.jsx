@@ -1,5 +1,6 @@
 import React from 'react';
-import profilePic from '../assets/images/profile-pic.png';
+//import profilePic from '../assets/images/profile-pic.png';
+import profilePicn from '../assets/images/profile-pic.png';
 import resumePDF from '../assets/ibrahim-resume.pdf';
 
 const Hero = () => {
