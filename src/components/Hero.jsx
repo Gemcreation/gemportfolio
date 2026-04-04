@@ -32,7 +32,7 @@ const Hero = () => {
       
       <div className="hero-image-container">
         <img 
-          src={profilePic} alt="Abdulmojeed Ibrahim profile" className="hero-image"
+          src={profilePicn} alt="Abdulmojeed Ibrahim profile" className="hero-image"
         />
         {/* <img 
           src={profilePic} alt="Abdulmojeed Ibrahim profile" className="hero-image" loading="lazy" decoding="async"
