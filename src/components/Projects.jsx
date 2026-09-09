@@ -4,7 +4,7 @@ import proj1 from '../assets/images/proj-1.png';
 import proj2 from '../assets/images/proj-2.png';
 import proj3 from '../assets/images/proj-3.png';
 //addition image after rebuildng into react
-// import project7 from '../assets/images/project-7.jpg';
+import project7 from '../assets/images/project-7.PNG';
 import project8 from '../assets/images/project-8.PNG';
 import project1 from '../assets/images/project-1.jpg';
 import project2 from '../assets/images/project-2.jpg';
@@ -17,7 +17,7 @@ const projectsList = [
   
   {
     image: project8,
-    title: 'Eat With Oyin',
+    title: 'Food Ordering',
     github: 'https://github.com/Gemcreation/eatwithoyin.git',
     live: 'https://eatwithoyin.vercel.app/'
   },
@@ -28,6 +28,12 @@ const projectsList = [
     live: 'https://roomslider.vercel.app/'
   },
   {
+    image: project7,
+    title: 'Halal Checker',
+    github: 'https://github.com/Gemcreation/kulhalal.git',
+    live: 'https://kulhalal.vercel.app/'
+  },
+  {
     image: proj2,
     title: 'URL Shortener',
     github: 'https://github.com/Gemcreation/urlproject1',
@@ -35,25 +41,25 @@ const projectsList = [
   },
   {
     image: proj3,
-    title: 'Wealth Web',
+    title: 'Interior & Exterior',
     github: 'https://github.com/Gemcreation/wealthwebsite',
     live: 'https://wealthwebsite-nine.vercel.app//'
   },
   {
     image: project1,
-    title: 'Umie',
+    title: 'Hijab Wears',
     github: 'https://github.com/Gemcreation/umie-garment',
     live: 'https://umie-garment.vercel.app/'
   },
   {
     image: project2,
-    title: 'Oyin',
+    title: 'Restaurant',
     github: 'https://github.com/Gemcreation/oyin-website',
     live: 'https://oyin-foodies.vercel.app/'
   },
   {
     image: project3,
-    title: 'Honeystore',
+    title: 'Boutique',
     github: 'https://github.com/Gemcreation/honeystore',
     live: 'https://honeystore-wears.vercel.app/'
   },
@@ -62,12 +68,6 @@ const projectsList = [
     title: 'Job Listing',
     github: 'https://github.com/Gemcreation/gem-static-job-web',
     live: 'https://gem-front-job.vercel.app/'
-  },
-  {
-    image: project6,
-    title: 'Landing page',
-    github: 'https://github.com/Gemcreation/webs-landing-page',
-    live: 'https://web3-landing-pages.vercel.app/'
   }
 ];
 

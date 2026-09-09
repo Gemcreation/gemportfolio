@@ -35,6 +35,8 @@ const Header = () => {
         </ul>
       </nav>
 
+          {/* Mobile navs */}
+
       <nav id="hamburger-nav">
         <div className="logo" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} style={{ cursor: "pointer" }}>
           Abdulmojeed <span>Ibrahim</span>
