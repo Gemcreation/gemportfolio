@@ -4,17 +4,26 @@ import proj1 from '../assets/images/proj-1.png';
 import proj2 from '../assets/images/proj-2.png';
 import proj3 from '../assets/images/proj-3.png';
 //addition image after rebuildng into react
+// import project7 from '../assets/images/project-7.jpg';
+import project8 from '../assets/images/project-8.PNG';
 import project1 from '../assets/images/project-1.jpg';
 import project2 from '../assets/images/project-2.jpg';
 import project3 from '../assets/images/project-3.jpg';
 import project4 from '../assets/images/project-4.jpg';
-import project5 from '../assets/images/project-5.jpg';
+// import project5 from '../assets/images/project-5.jpg';
 import project6 from '../assets/images/project-6.jpg';
 
 const projectsList = [
+  
+  {
+    image: project8,
+    title: 'Eat With Oyin',
+    github: 'https://github.com/Gemcreation/eatwithoyin.git',
+    live: 'https://eatwithoyin.vercel.app/'
+  },
   {
     image: proj1,
-    title: 'Room',
+    title: 'Room Slider',
     github: 'https://github.com/Gemcreation/geeg-new-room',
     live: 'https://roomslider.vercel.app/'
   },
@@ -53,12 +62,6 @@ const projectsList = [
     title: 'Job Listing',
     github: 'https://github.com/Gemcreation/gem-static-job-web',
     live: 'https://gem-front-job.vercel.app/'
-  },
-  {
-    image: project5,
-    title: 'Ako Treate',
-    github: 'https://github.com/Gemcreation/redo-ako-treate',
-    live: 'https://ako-treate.vercel.app/'
   },
   {
     image: project6,
